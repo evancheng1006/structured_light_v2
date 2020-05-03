@@ -1,10 +1,10 @@
 %load('calibration_parameters_01.mat'); % pic01_, pic02_
-load('calibration_parameters_02.mat'); % pic03_
+%load('calibration_parameters_02.mat'); % pic03_
 %load('calibration_parameters_03.mat'); % pic04_
-%load('calibration_parameters_04.mat'); % pic05_
+load('calibration_parameters_04.mat'); % pic05_ ~ pic18_
 
 img_fn = strings(12,1);
-img_fn_basename = "pic03_";
+img_fn_basename = "pic18_";
 pc_fn_name = sprintf("%spc.ply", img_fn_basename);
 for i=1:12
     img_fn(i) = sprintf("%s%02d.png", img_fn_basename, i);

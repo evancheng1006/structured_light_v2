@@ -7,14 +7,14 @@
 #include "textures.inc"
 #include "shapes.inc"
 
-#macro MyObj3(X, Xstep, Xmax, Y, Ystep, Ymax, height, cy_rad)
+#macro MyObj3(X, Xstep, Xmax, Y, Ystep, Ymax, height, ball_rad)
 
 #while (X <= Xmax)
 	#declare tmpY = Y;
 	#while (tmpY <= Ymax)
-		cylinder {
-			<X,tmpY,0>, <X,tmpY,height>, cy_rad
-			texture{ T_Stone3 }
+		sphere {
+			<X,tmpY,height>, ball_rad
+			texture{ T_Wood3 }
 		}
 		#declare tmpY = tmpY + Ystep;
 	#end

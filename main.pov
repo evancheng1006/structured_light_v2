@@ -9,10 +9,9 @@
 
 #include "projectors.inc"
 #include "my_camera.inc"
-#include "my_object.inc"
-#include "my_object2.inc"
+#include "my_object3.inc"
 
-MyObj2(-4.5, 1, 4.5, -4.5, 1, 4.5, 1, 0.25)
+MyObj3(-3.5, 2, 5.5, -4.5, 2, 4.5, 0.38, 0.46)
 MyCam(-25, -25, 13.7374, 40)
 
 global_settings { ambient_light White }

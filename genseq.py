@@ -20,7 +20,7 @@ appendix = [
 'Proj(proj_rad, proj_spacing, proj_num_x, proj_num_y,  1, 16)',
 'Proj(proj_rad, proj_spacing, proj_num_x, proj_num_y,  1, 32)',
 ]
-fn_out_basename = 'pic05_'
+fn_out_basename = 'pic18_'
 
 for i in range(len(appendix)):
     fn = '%s%02d.pov' % (fn_out_basename, (i + 1))
